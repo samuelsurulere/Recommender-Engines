@@ -19,7 +19,7 @@ The prepared dataset was split into training and testing set, where 90% was for 
 - The recommendations from the recommender engine seems to agree with the purchases of the selected customers.
 
 ### Key takeaways
-There was no way to validate the reocmmender engine but to manually compare and try to find similarities between the entire previous purchase of a parituclar customer and compare it with the top 5 recommended products. 
+There was no way to validate the recommender engine except manually comparing and trying to find similarities between the entire previous purchase of a particular customer and compare it with the top 5 recommended products from the recommender engine. 
 
 ## Challenges 
  - Due to the train test split, I found it really difficult to write the proper function that will recommend the top five products to customers based on their first purchase.
@@ -35,7 +35,7 @@ There was no way to validate the reocmmender engine but to manually compare and 
 │
 ├── Online Retail.xlsx         <-- Dataset used in building the engine.
 │
-├── reocmmeder_engines.ipynb   <-- Files with user defined functions 
+├── recommender_engines.ipynb   <-- Files with user defined functions 
 |                                        and classes
 ```
 
